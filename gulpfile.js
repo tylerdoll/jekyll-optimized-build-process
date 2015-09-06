@@ -14,10 +14,6 @@ var messages = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-var sources = {
-	desktop: '~/Desktop/gulp_compling',
-};
-
 gulp.task(
 	'jekyll',
 	['jekyll:copy']
