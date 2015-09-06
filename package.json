@@ -1,0 +1,37 @@
+{
+  "name": "jekyll-optimized-build-process",
+  "version": "1.0.0",
+  "description": "A jekyll-based build process that optimizes scripts, styles, and images using GULP",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Doll",
+  "license": "GNU",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "run-sequence": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylerdoll/jekyll-optimized-build-process.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "https://github.com/tylerdoll/jekyll-optimized-build-process/issues"
+  },
+  "homepage": "https://github.com/tylerdoll/jekyll-optimized-build-process"
+}
